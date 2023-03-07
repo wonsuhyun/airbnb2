@@ -83,8 +83,19 @@
     min-height: 400px;
 }
 @media ( max-width : 800px ) {
-    .container > div {
+    .container.cont > div {
         padding-left:20px;
         padding-right: 20px;
     }
+
+    .page_tit {
+        padding-left:20px;
+        padding-right: 20px;
+    }
+    
+    .main {
+        padding-left:20px;
+        padding-right: 20px;
+    }
+
 }
