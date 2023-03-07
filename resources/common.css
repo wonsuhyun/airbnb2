@@ -4,7 +4,7 @@
 }
 
 .container.cont > div {
-    padding-bottom: 45px;
+    padding-bottom: 50px;
     border-bottom:1px solid #d9d9d9
 }
 
@@ -21,7 +21,7 @@
 .tit {
     font-size: 20px;
     margin-bottom: 20px;
-    padding-top: 45px;
+    padding-top: 50px;
     font-weight: 500;
 }
 
@@ -52,6 +52,11 @@
 .way li {
     margin-bottom: 25px;
 }
+
+.way li:last-child {
+    padding-bottom: 0;
+}
+
 .img_wrap{
     margin-bottom: 5px;
 }
