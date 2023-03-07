@@ -54,7 +54,7 @@
 }
 
 .way li:last-child {
-    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .img_wrap{
