@@ -3,6 +3,15 @@
     margin: 50px auto ;
 }
 
+.container.cont > div {
+    padding-bottom: 30px;
+    border-bottom:1px solid #d9d9d9
+}
+
+.container.cont > div:last-child {
+    border-bottom: none;
+}
+
 .page_tit {
     font-size: 30px;
     font-weight: 600;
@@ -74,7 +83,8 @@
     min-height: 400px;
 }
 @media ( max-width : 800px ) {
-    .container {
-        padding: 0 20px
+    .container > div {
+        padding-left:20px;
+        padding-right: 20px;
     }
 }
